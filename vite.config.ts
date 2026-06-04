@@ -6,8 +6,8 @@ import react from "@vitejs/plugin-react";
 declare var __dirname: string;
 
 // https://vitejs.dev/config/
-export default defineConfig({
-  base: '/fork-for-owlbear-dice/',
+export default defineConfig(({ command }) => ({
+  base: command === "build" ? "/fork-for-owlbear-dice/" : "/",
   plugins: [react()],
   assetsInclude: ["**/*.glb", "**/*.hdr"],
   build: {
@@ -19,4 +19,4 @@ export default defineConfig({
       },
     },
   },
-});
+}));
