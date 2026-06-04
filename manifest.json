@@ -4,14 +4,14 @@
   "manifest_version": 1,
   "author": "Cort-of-KEO",
   "homepage_url": "https://github.com/cort-of-keo/obr-DS-dice-main",
-  "icon": "https://moorlo.github.io/fork-for-owlbear-dice/logo.png",
+  "icon": "logo.png",
   "description": "Unofficial Dice roller for Draw Steel",
   "action": {
     "title": "DS Dice for OBR",
-    "icon": "https://moorlo.github.io/fork-for-owlbear-dice/d10-svgrepo-com.svg",
-    "popover": "https://moorlo.github.io/fork-for-owlbear-dice/popover.html",
+    "icon": "d10-svgrepo-com.svg",
+    "popover": "popover.html",
     "height": 700,
     "width": 375
   },
-  "background_url": "https://moorlo.github.io/fork-for-owlbear-dice/background.html"
+  "background_url": "background.html"
 }
