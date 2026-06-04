@@ -7,6 +7,7 @@ declare var __dirname: string;
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/fork-for-owlbear-dice/',
   plugins: [react()],
   assetsInclude: ["**/*.glb", "**/*.hdr"],
   build: {
